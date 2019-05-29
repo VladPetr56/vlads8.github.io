@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: #3e3d3a;
+}
+.wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+
+	height: 80vh;
+}
+.content p,
+.content h1 {
+	margin: 0;
+
+	color: #f0d189;
+	text-align: center;
+}
+.content h1 {
+	font-family: 'Baloo', cursive;
+	font-size: 55px;
+
+	border-bottom: 3px dotted #f0d189;
+}
+.content p {
+	font-family: 'Courgette', cursive;
+	font-size: 30px;
+
+	margin-top: 15px;
+}
